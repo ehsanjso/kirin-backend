@@ -8,7 +8,11 @@
     ],
     "routes": [
         {
-            "src": "/(.*)",
+            "src": "/metric",
+            "dest": "/app.js"
+        },
+        {
+            "src": "/activity",
             "dest": "/app.js"
         }
     ]
