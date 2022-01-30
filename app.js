@@ -1,6 +1,6 @@
 const express = require("express");
 var path = require("path");
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
 const pino = require("pino");
